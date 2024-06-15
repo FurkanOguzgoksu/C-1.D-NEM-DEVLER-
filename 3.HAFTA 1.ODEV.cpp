@@ -1,5 +1,5 @@
-//Klavyeden girilen 50 sayılık bir dizinin sayıların tamamını,toplamını,ortalamasını,
-//ortalamadan büyük sayı adedini,ortalamadan küçük sayı adedini,ortalamaya eşit sayı adedini veren koddur.
+//Klavyeden girilen 50 sayÄ±lÄ±k bir dizinin sayÄ±larÄ±n tamamÄ±nÄ±,toplamÄ±nÄ±,ortalamasÄ±nÄ±,
+//ortalamadan bÃ¼yÃ¼k sayÄ± adedini,ortalamadan kÃ¼Ã§Ã¼k sayÄ± adedini,ortalamaya eÅŸit sayÄ± adedini veren koddur.
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -23,7 +23,7 @@ int main()
 	printf("50 sayinin ortalamasi:%f",ort);
 	printf("\n");
 	
-// Büyük ve küçük sayıları kontrol etme
+// BÃ¼yÃ¼k ve kÃ¼Ã§Ã¼k sayÄ±larÄ± kontrol etme
 	for(i=0;i<50;i++)
 	{
 		if(ort<dizi[i])
