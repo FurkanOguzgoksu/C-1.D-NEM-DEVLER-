@@ -18,7 +18,7 @@ int main() {
         scanf("%d",&dizi2[i]);
     }
     printf("\n");  
- // Çift ve tek indislerin yerlerini değiştirme
+ // Ã‡ift ve tek indislerin yerlerini deÃ°iÃ¾tirme
     for (int i = 0; i < 10; i += 2) {
         
             int temp = dizi1[i];
