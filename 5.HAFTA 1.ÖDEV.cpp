@@ -25,8 +25,7 @@ int main()
 		{
             printf("Kombinasyon kurallarina aykiri islem yapmak istediniz.\nTekrar deneyiniz.\n");
         } 
-		else 
-		{
+	else {
             sonuc = faktoriyel(n) / (faktoriyel(r) * faktoriyel(n - r));
             printf("Kombinasyonun isleminin sonucu: %d\n", sonuc);
             break;
